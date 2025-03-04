@@ -163,3 +163,15 @@ if __name__ == "__main__":
 # catboost_regressor: 0.25019 sec
 # MLP Test Accuracy: 0.9746
 # train_mlp: 12.62488 sec
+
+# Summary statistics (percentage change from Old Laptop Win 10)
+# ------------------------------------------------------------------------------
+# Task                     | PC Win 11 No Turbo Boost (sec) | Old Laptop Win 10 (sec) | PC Win 11 Turbo Boost (sec) | % Change (PC Win 11 No Turbo Boost) | % Change (PC Win 11 Turbo Boost)
+# -------------------------------------------------------------------------------------------------------------------
+# load_mnist               | 3.70313                        | 5.51620                 | 2.14450                      | -32.87%                             | -61.12%
+# rf_classifier            | 2.34605                        | 17.20083                | 1.49566                      | -86.36%                             | -91.30%
+# catboost_classifier      | 34.92314                       | 302.23807               | 23.12175                     | -88.45%                             | -92.35%
+# load_california_housing  | 0.02419                        | 0.04166                 | 0.00000                      | -41.93%                             | -100.00%
+# rf_regressor             | 1.00768                        | 6.48558                 | 0.55462                      | -84.46%                             | -91.45%
+# catboost_regressor       | 0.40252                        | 0.80315                 | 0.25019                      | -49.88%                             | -68.85%
+# train_mlp                | 18.98875                       | 37.97328                | 12.62488                     | -49.99%                             | -66.75%
