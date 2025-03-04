@@ -139,7 +139,7 @@ if __name__ == "__main__":
 # read_json: 0.77391 sec
 # parallel_processing: 1.56115 sec
 
-# Old laptop win 11:
+# Old laptop win 10:
 # recursion: 0.20766 sec
 # integer_operations: 1.97350 sec
 # float_operations: 1.59820 sec
