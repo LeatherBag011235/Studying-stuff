@@ -149,3 +149,17 @@ if __name__ == "__main__":
 # catboost_regressor: 0.80315 sec
 # MLP Test Accuracy: 0.9722
 # train_mlp: 37.97328 sec
+
+# Pc win 11 Turbo Boost:
+# load_mnist: 2.14450 sec
+# RF Classifier Accuracy: 0.9667857142857142
+# rf_classifier: 1.49566 sec
+# CatBoost Classifier Accuracy: 0.9504285714285714
+# catboost_classifier: 23.12175 sec
+# load_california_housing: 0.00000 sec
+# RF Regressor MSE: 0.2571675255243977
+# rf_regressor: 0.55462 sec
+# CatBoost Regressor MSE: 0.22586471748100057
+# catboost_regressor: 0.25019 sec
+# MLP Test Accuracy: 0.9746
+# train_mlp: 12.62488 sec

@@ -153,3 +153,18 @@ if __name__ == "__main__":
 # write_json: 5.62816 sec
 # read_json: 1.91254 sec
 # parallel_processing: 1.88637 sec
+
+# PC win 11 Turbo Boost:
+# recursion: 0.00636 sec
+# integer_operations: 0.61755 sec
+# float_operations: 0.45269 sec
+# string_operations: 0.00000 sec
+# numpy_operations: 0.51573 sec
+# numpy_sort: 0.55932 sec
+# pandas_dataframe_operations: 0.03172 sec
+# pandas_merge: 0.01612 sec
+# write_csv: 4.80030 sec
+# read_csv: 0.66628 sec
+# write_json: 1.89160 sec
+# read_json: 0.45064 sec
+# parallel_processing: 0.85410 sec
